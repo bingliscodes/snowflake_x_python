@@ -4,6 +4,8 @@ from collections import defaultdict
 import pandas as pd
 
 #this function goes through the dataframe and adds the label for the appropriate lowest level account category for each row.
+
+
 def addLabels(df):
     df['Account Label'] = df.apply(
         lambda x: DentWizard.find_category_by_account(x['ACCOUNT_NUMBER']),
