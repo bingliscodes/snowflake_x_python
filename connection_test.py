@@ -2,6 +2,8 @@ import snowflake.connector
 from dotenv import load_dotenv
 import os
 import pandas as pd
+from data_operations import *
+import IPython
 load_dotenv()
 
 connection_params = {
@@ -29,52 +31,55 @@ cur = connection.cursor()
 
 def main_menu():
     print("\nWelcome to the Snowflake Interactive Menu")
-    print("1. Show Databases")
-    print("2. Run Custom Query")
-    print("3. Set Current Database")
-    print("4. Set Current Warehouse")
-    print("5. Exit")
+    print("1. Execute Query and Load Data")
+    print("2. Filter Data")
+    print("3. Summarize Data")
+    print("4. Select Data from a View")
+    print("5. Set Current Database")
+    print("6. Set Current Warehouse")
+    print("7. Exit")
 
-def set_current_db():
-    db_name = input("Enter database name: ")
-    execute_query(f"USE DATABASE {db_name};")
-
-def set_current_wh():
-    wh_name = input("Enter warehouse name: ")
-    execute_query(f"USE WAREHOUSE {wh_name};")
-
-def execute_query(query):
+# For data retrieval operations
+def execute_query_and_load_data(query):
     try:
         cur.execute(query)
-        if cur.rowcount > 0:
-            try:
-                df = cur.fetch_pandas_all()
-                print(df)
-            except Exception as e:
-                print("Query executed successfully, but no data was returned for DataFrame. {e}")
-        else:
-            print("Query executed successfully, but it does not return a result set.")
+        df = cur.fetch_pandas_all()
+        return df
     except Exception as e:
-        print(f"An error occurred {e}")
+        print(f"An error occurred: {e}")
+        return pd.DataFrame()  # Return an empty DataFrame in case of an error
 
-def run_custom_query():
-    query = input("Enter your SQL query: ")
-    execute_query(query)
+# For context-setting operations
+def execute_session_command(command):
+    try:
+        cur.execute(command)
+        print("Session command executed successfully.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
+df = None
 def main():
+    global df
+    df = pd.DataFrame()
+
     while True:
         main_menu()
         choice = input("Enter your choice: ")
-        
+
         if choice == "1":
-            execute_query("SHOW DATABASES")
-        elif choice == "2":
-            run_custom_query()
-        elif choice == "3":
-            set_current_db()
+            query = input("Enter your SQL query: ")
+            df = execute_query_and_load_data(query)
+        elif choice == "2" and not df.empty:
+            filter_dataframe(df)
+        elif choice == "3" and not df.empty:
+            summarize_data(df)
         elif choice == "4":
-            set_current_wh()
+            df = select_from_view()
         elif choice == "5":
+            set_current_db()
+        elif choice == "6":
+            set_current_wh()
+        elif choice == "7":
             print("Exiting...")
             break
         else:
@@ -86,3 +91,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    if df is not None:
+        print("DataFrame is now accessible.")
+    IPython.embed()
+
