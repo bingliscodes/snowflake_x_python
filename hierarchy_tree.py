@@ -106,13 +106,14 @@ SGA_benefits = AccountLeafNode("SG&A Benefits", ['5006000', '5007000', '5008000'
 SGA_people_Children = [SGA_wages, SGA_benefits]
 
 SGA_vehichle = AccountLeafNode("SG&A Vehichle", ['5027000', '5028000', '5029000', '5030000', '5032000', '5033000', '5034000', '5035000'])
-SGA_travel = AccountLeafNode("SG&A Travel & Entertainment", ['5036000', '5036500', '5037000', '5038000'])
+SGA_travel = AccountLeafNode("SG&A Travel & Entertainment", ['5036000', '5037000', '5038000'])
 SGA_cell = AccountLeafNode("SG&A Cellphones", ['5039000', '5040000'])
 SGA_employee = AccountLeafNode("SG&A Employee Relations", ['5044000', '5045000', '5046000', '5047000', '5048000'])
 SGA_supplies = AccountLeafNode("SG&A Supplies", ['5049000', '5051000', '5052000', '5053000', '5054000', '5055000', '5056000'])
 SGA_facility = AccountLeafNode("SG&A Facility Expenses", ['5057000', '5058000', '5059000', '5060000', '5061000'])
 SGA_advert = AccountLeafNode("SG&A Advertising & Marketing", ['5063000', '5066000', '5067000', '5068000', '5069000', '5070000', '5071000', '5072000', '5073000', '5074000', '5078000', '5078100', '5078200'])
 SGA_other = AccountLeafNode("SG&A Other", [
+    '5036500',
     '5041000', 
     '5079000', 
     '5080000', 
