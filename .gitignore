@@ -1,4 +1,5 @@
 # .gitignore content
 .env
+.csv
 # other files or directories to ignore
 node_modules/

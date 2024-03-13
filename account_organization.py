@@ -2,6 +2,7 @@
 from hierarchy_tree import *
 from collections import defaultdict
 import pandas as pd
+import csv
 
 #this function goes through the dataframe and adds the label for the appropriate lowest level account category for each row.
 
@@ -12,13 +13,36 @@ def addLabels(df):
         axis= 1
     )
     return df
-"""
-testDict = {"Account_Name": ['a', 'b', 'c', 'd', 'e'], "Account_Number":['3080000', '3081000', '3082000', '3310000', '3385000'] }
-df = pd.DataFrame(data=testDict)
 
-df['Account Label'] = df.apply(
-    lambda x: DentWizard.find_category_by_account(x['Account_Number']),
-    axis = 1
-)
-"""
+def flatten_hierarchy(node, path=None, parent_name=""):
+    if path is None:
+        path = []
+    # Update the path for the current node
+    current_path = path + [node.name]
+    rows = []
+    if hasattr(node, 'account_numbers'):
+        for account_number in node.account_numbers:
+            rows.append({
+                'Account Number': str(account_number),
+                'Category Name': node.name,
+                'Parent Category': parent_name,  # Include the parent category
+                'Path': " > ".join(current_path)
+            })
+    else:
+        for child in node.children:
+            # Pass the current node's name as the parent name for its children
+            rows.extend(flatten_hierarchy(child, current_path, node.name))
+    return rows
 
+
+def export_to_csv(nodes, file_name='hierarchy.csv'):
+    fieldnames = ['Account Number', 'Category Name', 'Parent Category', 'Path']
+    with open(file_name, mode='w', newline='') as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        for node in nodes:
+            writer.writerows(flatten_hierarchy(node))
+
+
+
+#export_to_csv([DentWizard])

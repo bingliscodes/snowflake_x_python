@@ -1,0 +1,535 @@
+Row ID,Division,District,Department Description,Department,Product Line,Repair Type,Invoice Gross Amount (USD),Employee Name,Account Period
+0,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,1055,"Scarboro, Desmond 109154",Feb-24
+1,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Parts,16788.14,HOUNC404,Jan-24
+2,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,690,"Stewart, Preston 103944",Jan-24
+3,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,8291.8,"Abenghal, Ayoub 109234",Feb-24
+4,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Paint,Labor,0,"TX230, House",Feb-24
+5,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,5160,"Prosise, Darin 105009",Feb-24
+6,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,59.48,"Kruse, Mason 109098",Feb-24
+7,MidWest,Kansas City- dealer,CE03,MO204,Paint,Parts,1495.84,HOUMO204,Jan-24
+8,Southeast,Orlando Area Florida,SE03,FL230,Paint,Labor,185,"Rivera-Rivera, Kyatsha 106045",Feb-24
+9,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,11473.27,"Dagout, Miel 108829",Jan-24
+10,Southeast,Raleigh Speed Shop,SE08,NC207,Paint,Labor,150,"Poor, Jason M",Jan-24
+11,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,4227.68,"Joiner, Micheal W",Jan-24
+12,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Paint,Labor,0,"Hudson, Nathan 103282",Jan-24
+13,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,1288.2,"Brashear, Jonathan M",Feb-24
+14,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,875,"Conner, Jonathan S",Feb-24
+15,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,3041.7,"Okoro, Onyeka 109323",Feb-24
+16,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Paint,Labor,557,"Cherry, Jamaal 106183",Feb-24
+17,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Labor,4266,"Shumake, Joseph R",Feb-24
+18,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,2451.9,"Kinley, Travis 108832",Jan-24
+19,MidWest,1261 Wiley Rd-Schamburg IL Speed Shop,CE09,IL270,Paint,Labor,235,"CONNELL, BRIAN J",Feb-24
+20,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Parts,515.98,"Karki, Shikhar 109084",Jan-24
+21,MidWest,4645 Poth Rd-Columbus OH Speed Shop,CE07,OH262,Paint,Labor,732,"Dean, Joseph A",Feb-24
+22,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,4466.25,"Joiner, Micheal W",Jan-24
+23,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,5554.6,"Gilbert, Dustin 104937",Jan-24
+24,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,274.44,"Owens, Zachariah 107832",Feb-24
+25,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,2818,"TX230, House",Feb-24
+26,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Parts,20950.51,"TX232, House",Jan-24
+27,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,3830,"Littlejohn, Tecola 104384",Feb-24
+28,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,12312.75,"Karki, Shikhar 109084",Feb-24
+29,Southeast,Tampa Florida,SE02,FL206,Paint,Labor,80,"Rogers, Andrew C",Feb-24
+30,Northeast,Philadelphia City/Morrisville,NE06,PA212,Paint,Labor,220,"Patz, Samuel 107363",Feb-24
+31,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Parts,182.64,"Skrobska, Monika 109317",Feb-24
+32,Northeast,Glen Burnie Speed Shop,NE01,MD202,Paint,Parts,2041.42,"House Account, HOUMD202",Jan-24
+33,MidWest,Norwood Bodyshop,CE04,TX235,Mechanical,Parts,75,"Ripka, Robert 108767",Feb-24
+34,Southeast,Raleigh Speed Shop,SE08,NC207,Paint,Labor,75,"Hicks, Christopher E",Feb-24
+35,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Parts,82.5,"Tech NC207, House",Jan-24
+36,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,3007,"Henderson, Kyree 109179",Feb-24
+37,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,1301.69,"Petschen, Kenneth 109097",Feb-24
+38,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,1867.17,"Meeks, Thomas 109083",Jan-24
+39,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,6235,"Hudson, Nathan 103282",Feb-24
+40,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,8704,"Prosise, Darin 105009",Jan-24
+41,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,27,"Tech NC207, House",Feb-24
+42,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,825,"Nutter, Timothy 103716",Jan-24
+43,Northeast,Pittsburgh/Coraopolis,NE06,PA209,Paint,Labor,420,"O'Malley, Steven R",Feb-24
+44,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,7405.5,"Willingham, Damian 108499",Feb-24
+45,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,591,"FO908 - MVS, House",Feb-24
+46,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,8258,"Puckett, Michael 108198",Feb-24
+47,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,495.87,"Gomez, Leonard G",Jan-24
+48,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,5619.47,"Kruse, Mason 109098",Feb-24
+49,Northeast,Danvers Speed Shop,NE04,MA404,Paint,Parts,660.23,HOUMA404,Jan-24
+50,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Parts,31375,HOUGA201,Feb-24
+51,MidWest,Shift/ERAC/Hertz/ABG - Oakland/San Fran,WE05,CA204,Paint,Parts,5573.01,HOUCA204,Feb-24
+52,MidWest,11940 Sager Rd Swanton OH Speed Shop (Price Pro),CE08,MI260,Paint,Labor,50,"Gilsdorf, Jordan 105412",Jan-24
+53,Southeast,Brandon Vollmer Florida Off Lease,SE01,FL204,Paint,Labor,-500,HOUFL204,Jan-24
+54,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,1451,"Bloomfield, James 108187",Jan-24
+55,MidWest,6451 Sawmill Rd-Dublin OH Speed Shop,CE07,OH266,Paint,Parts,2381.1,"HOUSE,OH266",Feb-24
+56,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,724,"Jaafar, Hani 108483",Jan-24
+57,MidWest,Rental MN,CE06,MN300,Paint,Labor,2990,"Droege, Joshua 105420",Feb-24
+58,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,1025.04,"Abdisa, Amanuel 109100",Jan-24
+59,MidWest,6451 Sawmill Rd-Dublin OH Speed Shop,CE07,OH266,Paint,Labor,22.27,"HOUSE,OH266",Feb-24
+60,MidWest,Tesla Motors - CA/Colma,WE05,CA222,Paint,Labor,250,"Ruvalcaba, Cesar 103951",Feb-24
+61,MidWest,Dealer/Rental - DFW Route,CE04,TX206,Mechanical,Parts,1750,"Charles, Benjamin F",Feb-24
+62,Southeast,Greg Gartin Florida,SE02,FL215,Paint,Labor,50,"Harris, Gordon 106013",Feb-24
+63,Southeast,Matthew Murray North Carolina,SE05,NC205,Paint,Labor,87.5,"Orlowski, Rick J",Feb-24
+64,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,42,"Malone, Jonathan D",Feb-24
+65,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,11360.62,"Sanchez-Pastrana, Jonathan 105439",Feb-24
+66,MidWest,Brandon Boone's Route zone,WE06,NV203,Paint,Labor,650,"King III, Keith L",Feb-24
+67,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,336.18,"House Account, HOUCO204",Jan-24
+68,Southeast,Baton Rouge Speed Shop,SE07,LA202,Paint,Parts,52.91,"LA202, House",Feb-24
+69,Southeast,Justin Bentley Tennessee,SE07,TN202,Paint,Labor,375,"Duck, Jeremy 102954",Feb-24
+70,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Parts,36668.29,HOUGA201,Jan-24
+71,Northeast,Rockville/Silver Spring,NE02,MD203,Paint,Labor,40,"Bell, Patrick S",Feb-24
+72,MidWest,2535 Pilot Knob Rd-,CE06,MN260,Paint,Labor,58,"Martin, Harvey 109250",Feb-24
+73,MidWest,ID Dealers,WE06,ID280,Paint,Labor,1640,"Hingtgen, Peter 108526",Feb-24
+74,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,843.13,"Willingham, Devin 108500",Jan-24
+75,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Parts,295.74,"Meeks, Thomas 109083",Feb-24
+76,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,7617,"Osborne, David E",Feb-24
+77,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,69,"Stewart, Preston 103944",Feb-24
+78,MidWest,DLR-South Houston TX,CE02,TX205,Paint,Labor,100,"Bonner, Gary 103514",Feb-24
+79,Southeast,John Englezos Alabama,SE07,AL201,Paint,Parts,2251.93,HOUAL201,Feb-24
+80,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,1020,"Logan, Robeson D",Jan-24
+81,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,27142.74,HOUNC200,Jan-24
+82,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,3602.2,"Sanchez-Pastrana, Jonathan 105439",Jan-24
+83,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,798,"Gonzalez, Martin 108479",Feb-24
+84,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,576.41,"Rowland, Zachary 104617",Feb-24
+85,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,4210.8,"Crews, Timothy J",Feb-24
+86,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,958.5,"Willingham, Devin 108500",Jan-24
+87,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,3352.1,"Bowling, Logan 108934",Feb-24
+88,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,1050,"Hubbard, David S",Feb-24
+89,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,1344,"Osborne, David E",Feb-24
+90,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,12,"Moore, Darius 109160",Feb-24
+91,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,28.5,"Bailey, Natalie 106643",Jan-24
+92,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,0,"Beauchemin, Robert 106624",Jan-24
+93,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,1507.3,"Williamson, Michael 103851",Feb-24
+94,MidWest,DLR-W.Metro Minneap/St.Cld,CE06,MN202,Mechanical,Parts,761.87,"Deaver, David A",Feb-24
+95,MidWest,9501A Aerospace Drive-St Louis MO Speed Shop,CE03,MO262,Paint,Parts,5386.78,"HOUSE,MO262",Jan-24
+96,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,11224.2,"Clyburn, Eddie 108933",Feb-24
+97,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,0,"Ward, Kelli 109075",Feb-24
+98,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,9209.8,"Boehme, Steve 109099",Feb-24
+99,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,327.2,"Dotson, Dawn M",Feb-24
+100,MidWest,2535 Pilot Knob Rd-,CE06,MN260,Paint,Parts,45.31,"HOUSE,MN260",Jan-24
+101,MidWest,Rental MN,CE06,MN300,Paint,Parts,6835.57,HOUMN300,Feb-24
+102,MidWest,AZ-Gilbert/Tempe/Phoenix/Chandler/Mesa,WE02,AZ203,Paint,Labor,150,"Bain, Jonathan K",Feb-24
+103,MidWest,Henry's Route Zone - So Cal Dealers,WE04,CA227,Paint,Labor,90,"HOUSE,CA227",Feb-24
+104,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,45,"Danielsen, Shaun 108936",Feb-24
+105,Southeast,Raleigh Speed Shop,SE08,NC207,Paint,Labor,0,"Hicks, Christopher E",Jan-24
+106,MidWest,Greco - Mobile,CE05,IL204,Paint,Labor,5592.5,"Baum, Zachery M",Jan-24
+107,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,48206.55,"FO908 - MVS, House",Jan-24
+108,Southeast,Asheville Area North Carolina,SE07,NC213,Paint,Labor,75,"Koski, Mathew 104359",Jan-24
+109,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,11481.7,"Felix, Hendo 109101",Feb-24
+110,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,43706.33,"Crews, Timothy J",Feb-24
+111,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,47.5,"Bridges, Austin B",Feb-24
+112,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,317.4,"Abdisa, Amanuel 109100",Feb-24
+113,Southeast,Chris Carter Georgia Auction,SE01,GA101,Paint,Labor,494,"Williams, Evan W",Jan-24
+114,Southeast,Chris Myers North Carolina,SE04,NC214,Paint,Labor,600,"Olive, Branch 106420",Feb-24
+115,MidWest,Dealer-Route,CE06,WI280,Paint,Labor,30,"Parr, Nicholas 105700",Jan-24
+116,Southeast,Raleigh Speed Shop,SE08,NC207,Paint,Labor,250,"Bush, Gaven B",Feb-24
+117,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,650,"Cortez, Luz",Feb-24
+118,Northeast,Springfield/Vienna,NE02,VA280,Paint,Parts,85,"HOUSE,VA280",Jan-24
+119,Southeast,Jorge Areas North Carolina,SE05,NC203,Paint,Labor,5250,"Williams III, Clarence F",Jan-24
+120,Northeast,Rockville/Silver Spring,NE02,MD203,Paint,Labor,250,"Kelly, John W",Feb-24
+121,MidWest,Greco - Mobile,CE05,IL204,Paint,Labor,5592.5,"Baum, John A",Jan-24
+122,MidWest,WA North Route,WE06,WA203,Paint,Labor,470,"Villanueva, Alexander 104410",Feb-24
+123,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Parts,1746.22,"Charles, Benjamin F",Jan-24
+124,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,6637,"Mondragon, Roberto 109231",Feb-24
+125,Northeast,Manchester Speed Shop,NE04,NH201,Paint,Parts,4006.68,"House Account, HOUNH201",Feb-24
+126,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,246,"Skrobska, Monika 109317",Feb-24
+127,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,95,"Polley, Ryan J",Jan-24
+128,MidWest,Rental MN,CE06,MN300,Paint,Parts,1447.07,"Ewald, Charles E",Jan-24
+129,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Labor,1824,"Gilmore, Justin 106112",Jan-24
+130,Northeast,Rockville/Silver Spring,NE02,MD203,Paint,Labor,235,"Abadia, Javier",Feb-24
+131,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,6838.05,"Karki, Shikhar 109084",Jan-24
+132,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,135,"TX230, House",Jan-24
+133,MidWest,Greco - Mobile,CE05,IL204,Paint,Labor,293.55,"Bonko, Brandon P",Feb-24
+134,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,8725.5,"Willis, Delmon P",Jan-24
+135,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,10402.01,"Graves, Antonio 108924",Feb-24
+136,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,843.5,"Bonner, Brandyn 109197",Jan-24
+137,MidWest,Oregon Dealers,WE06,OR202,Paint,Labor,60,"OR202, HOU",Jan-24
+138,Southeast,"Space Coast, Florida",SE03,FL282,Paint,Labor,655,"Lopez, John 103304",Jan-24
+139,Northeast,Aberdeen Speed Shop,NE01,MD204,Paint,Labor,2059.16,"Robinson, Ronald D",Jan-24
+140,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,21110.48,"Brashear, Jonathan M",Jan-24
+141,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,8226.21,"Boehme, Steve 109099",Jan-24
+142,MidWest,29957 Beverly Rd-Romulus Speed Shop,CE01,MI261,Paint,Parts,24387.5,"HOUSE,MI261",Feb-24
+143,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,150,"Miller, Steven B",Feb-24
+144,Southeast,Birmingham Speed Shop,SE07,AL203,Paint,Parts,3368.93,"AL203, House",Feb-24
+145,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,18331.7,"Ho, David 109141",Feb-24
+146,Southeast,Greensboro North Carolina,SE04,NC206,Paint,Labor,210,"Pegram, Matthew D",Jan-24
+147,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,6625.33,"NJ205, House",Jan-24
+148,Northeast,Northeast Ops Support,NE99,NT100,Paint,Labor,-161,"Gandolfo, Anthony 106994",Feb-24
+149,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,0,"Brashear, Jonathan M",Jan-24
+150,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,3719.37,"Stanton, Ineko 109090",Jan-24
+151,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,5736.77,"Kruse, Mason 109098",Jan-24
+152,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,1281,"Stanton, Ineko 109090",Jan-24
+153,Southeast,Don Paul Day Florida,SE07,FL212,Paint,Labor,1152.3,"Potts, Jason 107536",Feb-24
+154,Southeast,William Mitchell Georgia,SE06,GA210,Paint,Labor,2385,"Long, James A",Jan-24
+155,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,2135.5,HOUNC200,Jan-24
+156,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Paint,Labor,111,"Delos Santos Jimenez, Marcelino 106147",Jan-24
+157,MidWest,Kansas City- dealer,CE03,MO204,Paint,Labor,270,"Talley, Anthony 105565",Feb-24
+158,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,232,"Hall, William 105435",Jan-24
+159,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Parts,17493.21,"Hudson, Nathan 103282",Jan-24
+160,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,5665,"Dukes, Colton R",Feb-24
+161,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,-232,"Hall, William 105435",Feb-24
+162,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Paint,Labor,600,"Lighthall IV, Raymond J",Feb-24
+163,MidWest,AZ-Gilbert/Tempe/Phoenix/Chandler/Mesa,WE02,AZ203,Paint,Labor,250,"Wall, Carl D",Feb-24
+164,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,838,"Hawkins, Parker 103940",Jan-24
+165,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,55,"Funck, Ricky 106268",Jan-24
+166,MidWest,DGDG/Capitol,WE05,CA223,Paint,Labor,43.75,"Leiva Orellana, Manuel D",Jan-24
+167,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,5258,"Osborne, David E",Jan-24
+168,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,15,"Martin, Antonio 109172",Feb-24
+169,Southeast,Raleigh Speed Shop,SE08,NC207,Paint,Parts,203.69,"Tech NC207, House",Feb-24
+170,Northeast,Hartford/Windsor Locks,NE07,CT281,Paint,Labor,480,"Johnson, Craig M",Feb-24
+171,MidWest,6023 W Forest Home Ave-Milwaukee WI Speed Shop,CE06,WI260,Paint,Parts,1158.33,"HOUSE,WI260",Feb-24
+172,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Parts,23627.59,"Scarboro, Desmond 109154",Feb-24
+173,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,5611.61,"Stanton, Ineko 109090",Feb-24
+174,MidWest,4490 Sunbury Rd Columbus OH 43219,CE07,OH270,Paint,Labor,200,"Foley, Connor E",Feb-24
+175,MidWest,3545 Evergreen Lane-St Louis MO Speed Shop,CE03,MO261,Paint,Parts,268.92,"HOUSE,MO261",Feb-24
+176,MidWest,Tolleson/Peoria/Avondale/Arrowhead,WE02,AZ201,Paint,Labor,150,"Harris, Taveo 108051",Jan-24
+177,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,8204.99,"Petschen, Kenneth 109097",Jan-24
+178,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Labor,3778,"Gilmore, Justin 106112",Feb-24
+179,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,14535.6,"Cordon, Christopher 108831",Feb-24
+180,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Paint,Labor,500,"HOUSE,GA251",Feb-24
+181,Southeast,Tampa Speed Shop,SE08,FL250,Paint,Parts,8999.66,"FL250, House",Feb-24
+182,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,294.99,"Helton, Bradley 108828",Jan-24
+183,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,42986.33,"FO908 - MVS, House",Feb-24
+184,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,5125.25,"Abdisa, Amanuel 109100",Feb-24
+185,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,84.6,"Cruz, George 107103",Feb-24
+186,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,4185,"Woodward, Matthew 105573",Feb-24
+187,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,51,"Danielsen, Shaun 108936",Jan-24
+188,Northeast,Manchester Speed Shop,NE04,NH201,Paint,Labor,50,"Rivera, Joseph L",Feb-24
+189,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,120,"Moore, Darius 109160",Jan-24
+190,Northeast,Aberdeen Speed Shop,NE01,MD204,Paint,Labor,70,"HOUSE,MD204",Jan-24
+191,Northeast,Albany Speed Shop,NE03,NY212,Paint,Parts,4771.22,"House Account, HOUNY212",Feb-24
+192,Northeast,Aberdeen Speed Shop,NE01,MD204,Paint,Parts,426.69,"HOUSE,MD204",Jan-24
+193,MidWest,CO Non KMX Dealers,WE02,CO201,Paint,Labor,60,"Welte, Tim 106208",Feb-24
+194,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,607,"Meeks, Thomas 109083",Feb-24
+195,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,0,"Brashear, Jonathan M",Feb-24
+196,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,1506.85,"MO208, HOU",Jan-24
+197,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,3335.07,"Abdisa, Amanuel 109100",Jan-24
+198,Southeast,Orlando Area Florida,SE03,FL230,Paint,Labor,300,"Negron, Kevin 105724",Jan-24
+199,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Parts,1280.43,"Tech NC207, House",Feb-24
+200,Northeast,Hartford/Windsor Locks,NE07,CT281,Paint,Labor,120,"Giroux, Michael M",Jan-24
+201,Northeast,Glen Burnie Speed Shop,NE01,MD202,Paint,Labor,156.75,"Sanchez Palacios, Enrrique 103879",Feb-24
+202,Northeast,Somersworth/Concord/Manchester,NE04,NH206,Paint,Labor,75,"Gagne, Joshua P",Feb-24
+203,MidWest,Admin MN,CE06,MN900,Mechanical,Parts,1147.84,"Palmer, Andrew C",Jan-24
+204,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Parts,39.16,"Danielsen, Shaun 108936",Jan-24
+205,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,725,"Irizarry, William F",Feb-24
+206,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Parts,0,"Gilmore, Justin 106112",Jan-24
+207,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,1375,"Irizarry, William F",Jan-24
+208,Southeast,Asheville Area North Carolina,SE07,NC213,Paint,Labor,1250,"Rogers, Cameron L",Jan-24
+209,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,125,"Romano, Cristian D",Feb-24
+210,MidWest,Norwood Bodyshop,CE04,TX235,Mechanical,Parts,50,"Ripka, Robert 108767",Jan-24
+211,MidWest,DLR-South Houston TX,CE02,TX205,Paint,Labor,150,"Crawford, John",Jan-24
+212,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,0,"Williamson, Brandon 109134",Feb-24
+213,MidWest,Oregon Dealers,WE06,OR202,Paint,Labor,435,"Tapia, Paul 104645",Feb-24
+214,MidWest,Rental MN,CE06,MN300,Paint,Labor,3795,"Droege, Joshua 105420",Jan-24
+215,Northeast,Northeast Ops Support,NE99,NT100,Paint,Labor,-163.33,"Correa, Frank A",Feb-24
+216,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,446.2,"Romano, Cristian D",Jan-24
+217,MidWest,Admin MN,CE06,MN900,Paint,Labor,751.7,"Palmer, Andrew C",Jan-24
+218,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,780.21,"Rowland, Zachary 104617",Jan-24
+219,Northeast,Fairfield/Danbury/Stratford,NE07,CT280,Paint,Labor,800,"Rand, Robert 106747",Jan-24
+220,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,60,"Anaya, David 108476",Jan-24
+221,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,1641,"Imes, Shawn J",Jan-24
+222,Northeast,Irwin Speed Shop,NE06,PA216,Paint,Labor,115,"Blatt, Greg  A",Feb-24
+223,MidWest,Greco - Mobile,CE05,IL204,Paint,Labor,6600,"Baum, John A",Feb-24
+224,MidWest,1575 E. Oakton St-Des Plaines Speed Shop,CE05,IL263,Paint,Labor,0,"LETNER, DAVID K",Feb-24
+225,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Parts,537.82,"Henderson, Kyree 109179",Feb-24
+226,Northeast,Glen Burnie Speed Shop,NE01,MD202,Paint,Labor,134.75,"House Account, HOUMD202",Feb-24
+227,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,3876,"Stewart, Preston 103944",Feb-24
+228,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,47.5,HOUMN201,Jan-24
+229,Key Operations,MO Keys 1,KE05,MO600,Mechanical,Parts,0,"Vance, Steven 105382",Feb-24
+230,MidWest,Las Vegas Speed Shop,WE06,NV201,Paint,Labor,90,"MAOKHAMPHIOU, STEVE 104637",Jan-24
+231,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,8724.62,"Logan, Robeson D",Feb-24
+232,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,12064.4,"Ho, David 109141",Jan-24
+233,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,1221,"Imes, Shawn J",Feb-24
+234,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,6363,"Gonzalez, Martin 108479",Jan-24
+235,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,1144.72,"Hubbard, David S",Jan-24
+236,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,2170,"Cortez, Luz",Jan-24
+237,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,6480,"Hudson, Nathan 103282",Jan-24
+238,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,39,"Hernandez, Gilberto 109489",Feb-24
+239,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,41302.24,HOUMN201,Feb-24
+240,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Parts,7926.1,HOUNC404,Feb-24
+241,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,1330,"Conner, Jonathan S",Jan-24
+242,Northeast,Fairfield/Danbury/Stratford,NE07,CT280,Paint,Labor,1820,"Scalzi, James 103588",Feb-24
+243,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Paint,Labor,0,"Hudson, Nathan 103282",Feb-24
+244,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,13.4,"Sanchez-Pastrana, Jonathan 105439",Jan-24
+245,Southeast,Hickory Area North Carolina,SE05,NC215,Paint,Labor,60,"Gomez Saldana, Esai N",Jan-24
+246,Southeast,Adam Pasdon Georgia,SE06,GA212,Paint,Labor,3326.28,"Travis, Michael 106184",Jan-24
+247,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,0,"Crews, Timothy J",Jan-24
+248,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,234,"Cassidy, Kashe 109039",Jan-24
+249,MidWest,Rental - Sacramento,WE05,CA212,Paint,Parts,805.25,"Valencia, R Christopher 105492",Feb-24
+250,MidWest,4645 Poth Rd-Columbus OH Speed Shop,CE07,OH262,Paint,Parts,2383.55,"HOUSE,OH262",Feb-24
+251,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Paint,Labor,963,"Ortega, Jonathan A",Feb-24
+252,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,6171.81,"Brashear, Jonathan M",Feb-24
+253,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,7948,"Rios, Fredi 109308",Feb-24
+254,Unknown,Unknown,Unknown,Unknown,Paint,Labor,0,Unknown,Jan-24
+255,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,958.19,"Miller Jr, Mark E",Feb-24
+256,Southeast,Greensboro North Carolina,SE04,NC206,Paint,Labor,50,"Pegram, Matthew D",Feb-24
+257,MidWest,Route - Pasadena Dealers,WE04,CA213,Paint,Parts,1892.86,"CA213, HOU",Jan-24
+258,MidWest,65 Broadway Ave-Bedford OH Speed Shop,CE08,OH261,Mechanical,Labor,40,"Defranco, Todd 103043",Feb-24
+259,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,1256.11,"Boehme, Steve 109099",Feb-24
+260,MidWest,Tesla Motors - CA/Colma,WE05,CA222,Paint,Parts,50,"Ortiz, Mario 104699",Jan-24
+261,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,18161.92,"Crews, Timothy J",Jan-24
+262,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,3352.5,"Willingham, Damian 108499",Jan-24
+263,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Parts,2266.95,"Polley, Ryan J",Feb-24
+264,MidWest,Greco - Mobile,CE05,IL204,Paint,Labor,229.3,"Bonko, Brandon P",Jan-24
+265,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,3203,"Hooks, Eric 108480",Jan-24
+266,MidWest,Dent Magic Mobile techs,CE07,OH282,Paint,Labor,60,"Baltzer, Nicholas K",Feb-24
+267,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,140.99,"House Account, HOUCO204",Feb-24
+268,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,174.6,"Gilbert, Dustin 104937",Feb-24
+269,MidWest,Dealer-Route,CE06,WI280,Paint,Labor,375,"Rogers, Eric D",Feb-24
+270,MidWest,Auctions AZ,WE02,AZ100,Paint,Labor,155,"Tucker, Rod C",Feb-24
+271,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,0,HOUNC200,Feb-24
+272,Southeast,Ft Lauderdale Florida,SE02,FL216,Paint,Labor,1025,"Bajis, Justin 109182",Feb-24
+273,Northeast,Northeast Ops Support,NE99,NT100,Paint,Labor,379.16,"Correa, Frank A",Jan-24
+274,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,10198.05,"Felix Jr, Hendo 109102",Feb-24
+275,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,9790.8,"Bunger, Kessler 109235",Feb-24
+276,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,18,"HOUSE,GA251",Jan-24
+277,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,836,"Lighthall IV, Raymond J",Jan-24
+278,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,8566.18,"Bruce, Anthony 105444",Jan-24
+279,Northeast,Manchester Speed Shop,NE04,NH201,Paint,Parts,2447.65,"House Account, HOUNH201",Jan-24
+280,Southeast,Adam Pasdon Georgia,SE06,GA212,Paint,Parts,134,"GA212, HOU",Jan-24
+281,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,0,"Hall, William 105435",Jan-24
+282,MidWest,Oregon Dealers,WE06,OR202,Paint,Labor,175,"Reagan, Austin 104674",Feb-24
+283,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,0,"Frost, Kristian 103730",Feb-24
+284,MidWest,Penske Bedford Ohio,CE08,OH208,Paint,Labor,210,"Calabrese, Mark D",Feb-24
+285,MidWest,DGDG/Capitol,WE05,CA223,Paint,Labor,43.75,"Hernandez Valenzuela, Juan J",Jan-24
+286,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Parts,8704.44,"TX230, House",Feb-24
+287,MidWest,913 W Highway 50-Ofallon IL Speed Shop,CE03,MO260,Paint,Labor,34,"Lashly, Clayton 1",Feb-24
+288,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,3428.6,"Crews, Timothy J",Jan-24
+289,MidWest,Oregon Dealers,WE06,OR202,Paint,Labor,250,"Allen, Derek 108852",Jan-24
+290,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,972.5,"Woodward, Matthew 105573",Jan-24
+291,MidWest,Dealer-Route,CE06,WI280,Paint,Labor,995,"Rogers, Eric D",Jan-24
+292,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,55.58,"Hawkins, Parker 103940",Feb-24
+293,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,0,"Crews, Timothy J",Feb-24
+294,MidWest,Rental MN,CE06,MN300,Paint,Parts,3845.22,HOUMN300,Jan-24
+295,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,10324.4,"Owens, Zachariah 107832",Jan-24
+296,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,15,"Charlesworth, Benjamin 104361",Jan-24
+297,MidWest,Las Vegas Speed Shop,WE06,NV201,Paint,Labor,360,"RUFFIN, BRETT G",Jan-24
+298,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,30,"Karki, Shikhar 109084",Jan-24
+299,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,11178.25,"Jaafar, Hani 108483",Jan-24
+300,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Parts,0,"HOUSE,GA251",Jan-24
+301,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Labor,286,"Rutherford, Alicia 109205",Jan-24
+302,Northeast,Northeast Ops Support,NE99,NT100,Paint,Labor,-408.34,"Cichowicz, Scott 105659",Feb-24
+303,Southeast,Tampa Speed Shop,SE08,FL250,Paint,Parts,7790.19,"FL250, House",Jan-24
+304,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,0,"Charlesworth, Benjamin 104361",Feb-24
+305,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,200.1,"Rios, Fredi 109308",Feb-24
+306,MidWest,CO Body Shop,WE02,CO204,Paint,Parts,234.15,"House Account, HOUCO204",Feb-24
+307,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,300,"Nutter, Timothy 103716",Feb-24
+308,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,24769.23,"Ward, Kelli 109075",Feb-24
+309,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,14763.1,"Bowling, Thomas 108938",Jan-24
+310,Northeast,Glen Burnie Speed Shop,NE01,MD202,Paint,Parts,1281.04,"House Account, HOUMD202",Feb-24
+311,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,57,"Kinley, Travis 108832",Feb-24
+312,MidWest,DLR-W.Metro Minneap/St.Cld,CE06,MN202,Mechanical,Labor,263.92,"Deaver, David A",Jan-24
+313,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,19400.01,HOUNC200,Feb-24
+314,Southeast,Orlando Area Florida,SE03,FL230,Paint,Labor,150,"Nieves, Jose A",Feb-24
+315,Southeast,"Space Coast, Florida",SE03,FL282,Paint,Labor,1100,"Lopez, John 103304",Feb-24
+316,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Parts,0,"Gilmore, Justin 106112",Feb-24
+317,Southeast,Tampa Speed Shop,SE08,FL250,Paint,Labor,360,"Ponds, Artis 106785",Feb-24
+318,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,0,HOUNC404,Jan-24
+319,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,8949.2,"NJ205, House",Feb-24
+320,MidWest,CO Non KMX Dealers,WE02,CO201,Paint,Labor,60,"Benavides-Vences, Eric 104533",Feb-24
+321,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,5895.9,"Dagout, Miel 108829",Feb-24
+322,MidWest,Kansas City- dealer,CE03,MO204,Paint,Labor,75,"Tunks, Brian D",Feb-24
+323,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,520,"Dukes, Colton R",Jan-24
+324,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,3022.8,"Tucker, Ryan 104705",Jan-24
+325,MidWest,CO Body Shop,WE02,CO204,Paint,Parts,4381.19,"House Account, HOUCO204",Jan-24
+326,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,132,"Cassidy, Kashe 109039",Feb-24
+327,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,10020.9,"Finisterre, Isaiah 108935",Feb-24
+328,Southeast,"Barham, Zachary North Carolina KMX",SE01,NC201,Paint,Parts,154,HOUNC201,Feb-24
+329,Northeast,Northeast Ops Support,NE99,NT100,Paint,Labor,1971.68,"Cichowicz, Scott 105659",Jan-24
+330,MidWest,Tolleson/Peoria/Avondale/Arrowhead,WE02,AZ201,Paint,Labor,100,"Goldsmith II, Robert L",Jan-24
+331,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Parts,255.07,"HOUSE,GA251",Feb-24
+332,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Paint,Labor,120,"Lighthall IV, Raymond J",Jan-24
+333,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,50,"Owens, Zachariah 107832",Feb-24
+334,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,7175.3,"Johnson, Quinton 109251",Feb-24
+335,MidWest,Admin MN,CE06,MN900,Paint,Labor,-751.7,"Palmer, Andrew C",Feb-24
+336,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,10538.4,"MO208, HOU",Jan-24
+337,Southeast,Baton Rouge Speed Shop,SE07,LA202,Paint,Parts,451.9,"LA202, House",Jan-24
+338,Northeast,Richmond,NE02,VA204,Paint,Labor,350,"Carter, Justin 105267",Feb-24
+339,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,7670.74,"Logan, Robeson D",Jan-24
+340,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,1680,"Gonzalez, Martin 108479",Jan-24
+341,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,848.27,"Willingham, Damian 108499",Jan-24
+342,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,5843.5,"Bonner, Brandyn 109197",Feb-24
+343,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Labor,682,Unknown,Jan-24
+344,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Parts,1749.4,"Polley, Ryan J",Jan-24
+345,Southeast,Adam Pasdon Georgia,SE06,GA212,Paint,Parts,1263.94,"Ramirez, Daniel 106121",Jan-24
+346,Northeast,Aberdeen Speed Shop,NE01,MD204,Paint,Parts,2391.95,"HOUSE,MD204",Feb-24
+347,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Parts,279.14,"TX230, House",Jan-24
+348,MidWest,DGDG/Capitol,WE05,CA223,Paint,Labor,43.75,"Reveles, Jesus S",Jan-24
+349,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,192,"Trouten, Chase 108581",Jan-24
+350,Southeast,Josh Betters South Carolina,SE03,SC202,Paint,Labor,900,"Shaffer, Richard 102648",Feb-24
+351,Northeast,Hampton/VA Beach,NE02,VA203,Paint,Labor,475,"Fernandez, Darius 109240",Feb-24
+352,Southeast,William Mitchell Georgia,SE06,GA210,Paint,Labor,4590,"Long, James A",Feb-24
+353,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,60,"Hearst, Rodney 108830",Jan-24
+354,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,7715.69,"Cerda, Rafael A",Jan-24
+355,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,522,"Willingham, Devin 108500",Feb-24
+356,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,611,"FO908 - MVS, House",Jan-24
+357,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,2273,"Hooks, Eric 108480",Feb-24
+358,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,127.3,"Tucker, Ryan 104705",Jan-24
+359,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,60,"Littlejohn, Tecola 104384",Feb-24
+360,MidWest,Admin MN,CE06,MN900,Mechanical,Labor,0,"Palmer, Andrew C",Feb-24
+361,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,16441.17,"Bruce, Anthony 105444",Feb-24
+362,MidWest,DLR-W.Metro Minneap/St.Cld,CE06,MN202,Mechanical,Labor,2355.24,"Deaver, David A",Feb-24
+363,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,1980,"Willis, Delmon P",Jan-24
+364,MidWest,AZ-Gilbert/Tempe/Phoenix/Chandler/Mesa,WE02,AZ203,Paint,Labor,1570,"Harris, Tre L",Feb-24
+365,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,1550.5,"Bradley, William 108937",Feb-24
+366,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Paint,Labor,1335,"Ortega, Jonathan A",Jan-24
+367,Southeast,Raleigh Speed Shop,SE08,NC207,Paint,Labor,0,"Poor, Jason M",Feb-24
+368,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,22767.96,"Ward, Kelli 109075",Jan-24
+369,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Parts,6020.7,"Scarboro, Desmond 109154",Jan-24
+370,MidWest,DLR-South Houston TX,CE02,TX205,Paint,Labor,280,"Johnston, Robin R",Feb-24
+371,MidWest,Route - Pasadena Dealers,WE04,CA213,Paint,Parts,3850.08,"CA213, HOU",Feb-24
+372,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,2423,"Agrawal, Jordan 107078",Jan-24
+373,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,4983.85,"Bradley, William 108937",Jan-24
+374,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,0,HOUNC404,Feb-24
+375,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,2400,"Hedgepeth, Robert D",Feb-24
+376,Northeast,Danvers Speed Shop,NE04,MA404,Paint,Parts,2298.45,HOUMA404,Feb-24
+377,Southeast,Jorge Areas North Carolina,SE05,NC203,Paint,Labor,4410,"Williams III, Clarence F",Feb-24
+378,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Labor,580,Unknown,Feb-24
+379,MidWest,Route - Pasadena Dealers,WE04,CA213,Paint,Labor,150,"CA213, HOU",Jan-24
+380,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,532.19,"Bruce, Anthony 105444",Jan-24
+381,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,12885.3,"Finisterre, Isaiah 108935",Jan-24
+382,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,2557.5,"Helton, Bradley 108828",Feb-24
+383,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,649,"Ozog, Jason 103039",Jan-24
+384,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,1533,"TX232, House",Jan-24
+385,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,12960.4,"Clyburn, Eddie 108933",Jan-24
+386,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Parts,0,"Malone, Jonathan D",Feb-24
+387,MidWest,9501A Aerospace Drive-St Louis MO Speed Shop,CE03,MO262,Paint,Parts,842.83,"Harper, Terrell 108582",Jan-24
+388,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,966.5,"Hernandez, Gilberto 109489",Feb-24
+389,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,6646.95,"FO908 - MVS, House",Feb-24
+390,MidWest,9501A Aerospace Drive-St Louis MO Speed Shop,CE03,MO262,Paint,Parts,842.84,"Evans, Darreyon J",Jan-24
+391,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,3471.7,"Cainelli, Cesar 109085",Jan-24
+392,MidWest,3545 Evergreen Lane-St Louis MO Speed Shop,CE03,MO261,Paint,Parts,240,"HOUSE,MO261",Jan-24
+393,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Parts,0,"Emerson, Andrew 109040",Feb-24
+394,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,12,"Rodriguez, Fernando 108040",Jan-24
+395,Southeast,Birmingham Speed Shop,SE07,AL203,Paint,Parts,6402.75,"AL203, House",Jan-24
+396,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,2195.5,HOUNC404,Jan-24
+397,MidWest,Norwood Bodyshop,CE04,TX235,Paint,Labor,25,"Cordova, Jaazanias 104830",Feb-24
+398,MidWest,Greco - Mobile,CE05,IL204,Paint,Labor,6600,"Baum, Zachery M",Feb-24
+399,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,804.27,"Boehme, Steve 109099",Jan-24
+400,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,0,"MO208, HOU",Jan-24
+401,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,817,"Littlejohn, Tecola 104384",Jan-24
+402,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,1681,"Ozog, Jason 103039",Feb-24
+403,MidWest,Tesla Motors - CA/Colma,WE05,CA222,Paint,Labor,335,"Sanchez, Ulises 108172",Feb-24
+404,MidWest,Oregon Dealers,WE06,OR202,Paint,Labor,-60,"Chable, Chrisanto 109022",Feb-24
+405,Northeast,Fairfield/Danbury/Stratford,NE07,CT280,Paint,Labor,475,"Rand, Robert 106747",Feb-24
+406,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,11299.15,"Bowling, Thomas 108938",Feb-24
+407,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,0,"Tech NC207, House",Jan-24
+408,Southeast,Chris Carter Georgia Auction,SE01,GA101,Paint,Labor,240,"Martin, Shawn H",Feb-24
+409,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,4141.85,"Felix, Hendo 109101",Jan-24
+410,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Parts,35892.46,"Imes, Shawn J",Feb-24
+411,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,2002.5,"TX232, House",Feb-24
+412,MidWest,Newcastle Body shop,CE04,OK230,Paint,Labor,100,"Sites, Andrew J",Feb-24
+413,MidWest,DGDG/Capitol,WE05,CA223,Paint,Labor,43.75,"Sanchez Jr, Santos 104493",Jan-24
+414,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,1315.5,"Bloomfield, James 108187",Feb-24
+415,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,6,"Willis, Delmon P",Jan-24
+416,MidWest,AZ-Gilbert/Tempe/Phoenix/Chandler/Mesa,WE02,AZ203,Paint,Labor,1107.75,"Harris, Tre L",Jan-24
+417,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,481.65,"Kruse, Mason 109098",Jan-24
+418,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,1614,"Willis, Delmon P",Feb-24
+419,MidWest,9501A Aerospace Drive-St Louis MO Speed Shop,CE03,MO262,Paint,Parts,842.84,"Brown, Brandon R",Jan-24
+420,Southeast,Adam Pasdon Georgia,SE06,GA212,Paint,Parts,6126.09,"GA212, HOU",Feb-24
+421,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Parts,0,"Malone, Jonathan D",Jan-24
+422,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,11981.38,"FO908 - MVS, House",Jan-24
+423,MidWest,WA North Route,WE06,WA203,Paint,Labor,200,"Villanueva, Alexander 104410",Jan-24
+424,MidWest,29957 Beverly Rd-Romulus Speed Shop,CE01,MI261,Paint,Parts,11764.04,"HOUSE,MI261",Jan-24
+425,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,6493.89,"Tucker, Ryan 104705",Feb-24
+426,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,12587,"Puckett, Michael 108198",Jan-24
+427,Northeast,Rockville/Silver Spring,NE02,MD203,Paint,Labor,840,"Langhirt, Dylan T",Feb-24
+428,Southeast,Matthew Murray North Carolina,SE05,NC205,Paint,Labor,87.5,"Allen, Kapatchy A",Feb-24
+429,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,0,"Anaya, David 108476",Jan-24
+430,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,375,"Osborne, David E",Jan-24
+431,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,3180,"Frost, Kristian 103730",Feb-24
+432,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,218.5,"Littlejohn, Tecola 104384",Jan-24
+433,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,2199.4,"Brashear, Jonathan M",Jan-24
+434,MidWest,WA South Route,WE06,WA201,Paint,Labor,165,"Kinley, Joshua 104315",Feb-24
+435,Northeast,Aberdeen Speed Shop,NE01,MD204,Paint,Labor,26.04,"HOUSE,MD204",Feb-24
+436,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Parts,510,"Shumake, Joseph R",Feb-24
+437,MidWest,Penske Bedford Ohio,CE08,OH208,Paint,Labor,875,"Calabrese, Mark D",Jan-24
+438,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,684.93,"Arenas, Gonzalo 104560",Feb-24
+439,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,6292.5,"Gonzalez, Martin 108479",Feb-24
+440,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,14347.89,HOUMN201,Jan-24
+441,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Parts,39986.48,"Imes, Shawn J",Jan-24
+442,Northeast,Glen Burnie Speed Shop,NE01,MD202,Paint,Labor,149.6,"Goldsmith, Timothy A",Feb-24
+443,MidWest,1261 Wiley Rd-Schamburg IL Speed Shop,CE09,IL270,Paint,Labor,235,"APARICIO, RENE M",Feb-24
+444,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,104.05,"Gomez, Leonard G",Feb-24
+445,MidWest,9501A Aerospace Drive-St Louis MO Speed Shop,CE03,MO262,Paint,Parts,7255.97,"HOUSE,MO262",Feb-24
+446,Southeast,Best Rd Speed Shop,SE08,GA201,Paint,Labor,2802,"Shumake, Joseph R",Jan-24
+447,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,2764.5,"Helton, Bradley 108828",Jan-24
+448,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,25,"TX232, House",Feb-24
+449,MidWest,CO Non KMX Dealers,WE02,CO201,Paint,Parts,1250.48,HOUCO201,Jan-24
+450,MidWest,Greco - Mobile,CE05,IL204,Paint,Parts,573,HOUIL204,Jan-24
+451,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,36.21,"Ho, David 109141",Jan-24
+452,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,2702.05,"Martin, Antonio 109172",Jan-24
+453,MidWest,6451 Sawmill Rd-Dublin OH Speed Shop,CE07,OH266,Paint,Labor,155.89,"Hallabrin, Austin A",Feb-24
+454,MidWest,Kansas City WRC,CE03,MO208,Paint,Labor,50,"MO208, HOU",Feb-24
+455,MidWest,WA North Route,WE06,WA203,Paint,Labor,70,Unknown,Jan-24
+456,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,2356.1,"Graves, Antonio 108924",Jan-24
+457,Southeast,Adam Pasdon Georgia,SE06,GA212,Paint,Labor,2250,"Travis, Michael 106184",Feb-24
+458,Southeast,Asheville Area North Carolina,SE07,NC213,Paint,Labor,360,"Koski, Mathew 104359",Feb-24
+459,Northeast,Eatontown/Toms River,NE06,NJ209,Paint,Labor,80,"Ritchey, Shannon 105028",Jan-24
+460,MidWest,Norwood Bodyshop,CE04,TX235,Mechanical,Labor,6,"Ripka, Robert 108767",Feb-24
+461,MidWest,Norwood Bodyshop,CE04,TX235,Mechanical,Labor,33,"Ripka, Robert 108767",Jan-24
+462,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,99,"Johnson, Quinton 109251",Jan-24
+463,MidWest,AZ-Gilbert/Tempe/Phoenix/Chandler/Mesa,WE02,AZ203,Paint,Labor,955,"Wall, Carl D",Jan-24
+464,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,0,"Ward, Kelli 109075",Jan-24
+465,MidWest,Detroit Factory,CE08,FO908,Mechanical,Labor,4233,"Willingham, Devin 108500",Feb-24
+466,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,25,"Bridges, Austin B",Feb-24
+467,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,2410,"Hedgepeth, Robert D",Jan-24
+468,Northeast,Aberdeen Speed Shop,NE01,MD204,Paint,Labor,221.63,"Robinson, Ronald D",Feb-24
+469,Northeast,Springfield/Vienna,NE02,VA280,Paint,Labor,200,"Lozada, Isaias 103397",Jan-24
+470,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,688,"Mondragon, Roberto 109231",Jan-24
+471,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Parts,120.93,"Mondragon, Roberto 109231",Feb-24
+472,Southeast,Roswell Shop,SE06,GA207,Paint,Labor,690,Unknown,Feb-24
+473,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,18299.8,"Cordon, Christopher 108831",Jan-24
+474,Northeast,West NY,NE06,NY202,Paint,Labor,370,"Kephart, Austin R",Feb-24
+475,Southeast,Orlando Area Florida,SE03,FL230,Paint,Labor,700,"Cook, Wilma S",Feb-24
+476,MidWest,Admin MN,CE06,MN900,Mechanical,Labor,0,"Palmer, Andrew C",Jan-24
+477,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Parts,7247.22,"Petschen, Kenneth 109097",Feb-24
+478,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,0,"Vance, Steven 105382",Jan-24
+479,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,13.4,"Williamson, Brandon 109134",Jan-24
+480,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,6603,"Frost, Kristian 103730",Jan-24
+481,MidWest,CO Body Shop,WE02,CO204,Paint,Labor,1072.14,"Arenas, Gonzalo 104560",Jan-24
+482,MidWest,1575 E. Oakton St-Des Plaines Speed Shop,CE05,IL263,Paint,Labor,450,"Bat-erdem, Dalaitseren 105123",Feb-24
+483,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,5414.7,"Bowling, Logan 108934",Jan-24
+484,Northeast,Northeast Ops Support,NE99,NT100,Paint,Labor,819,"Gandolfo, Anthony 106994",Jan-24
+485,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,405.5,"Scarboro, Desmond 109154",Jan-24
+486,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,1353.95,"Miller Jr, Mark E",Jan-24
+487,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,1310,"Agrawal, Jordan 107078",Feb-24
+488,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,1025,"Wilson, Preston 106613",Jan-24
+489,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Paint,Labor,-192,"Trouten, Chase 108581",Feb-24
+490,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Parts,3957.64,"MO208, HOU",Feb-24
+491,Southeast,Belmont Speed Shop,SE08,NC404,Paint,Labor,1620,"Wilson, Preston 106613",Feb-24
+492,Southeast,Greensboro Speed Shop,SE08,NC200,Paint,Labor,50,"Bailey, Natalie 106643",Feb-24
+493,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,151.5,"HOUSE,GA251",Feb-24
+494,MidWest,6451 Sawmill Rd-Dublin OH Speed Shop,CE07,OH266,Paint,Labor,265.24,"Tangeman, Deryk G",Feb-24
+495,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,3310.8,"Bruce, Anthony 105444",Feb-24
+496,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,3273.19,"Lopez-Leon, Felix A",Feb-24
+497,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Paint,Labor,30,"TX232, House",Jan-24
+498,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,392.51,"Petschen, Kenneth 109097",Jan-24
+499,MidWest,Admin MN,CE06,MN900,Mechanical,Parts,12467.95,"Palmer, Andrew C",Feb-24
+500,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,1398.5,HOUNC404,Feb-24
+501,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Parts,1261.22,"Helton, Bradley 108828",Feb-24
+502,MidWest,Greco - Mobile,CE05,IL204,Paint,Parts,1449.97,HOUIL204,Feb-24
+503,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,95,"Cortez, Luz",Jan-24
+504,Southeast,Asheville Area North Carolina,SE07,NC213,Paint,Labor,700,"Rogers, Cameron L",Feb-24
+505,Northeast,ABG Newark,NE03,NJ205,Paint,Labor,6264.43,"Cerda, Rafael A",Feb-24
+506,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Parts,242.63,"Bonner, Brandyn 109197",Feb-24
+507,MidWest,1580 W Ogdon Ave-Naperville IL Paint Speed Shop,CE05,IL265,Mechanical,Parts,-1600,"HOUSE,IL265",Jan-24
+508,MidWest,CO Non KMX Dealers,WE02,CO201,Paint,Parts,5471.98,HOUCO201,Feb-24
+509,Southeast,Raleigh Speed Shop,SE08,NC207,Mechanical,Labor,2035.55,"Felix Jr, Hendo 109102",Jan-24
+510,Southeast,Atlanta Wizard Reconditioning Center,SE08,GA251,Mechanical,Labor,78,"Rodriguez, Fernando 108040",Feb-24
+511,Southeast,Tampa Speed Shop,SE08,FL250,Paint,Labor,695,"Molina, Rommel E",Feb-24
+512,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Labor,664,"Lighthall IV, Raymond J",Feb-24
+513,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Parts,63517.21,"TX232, House",Feb-24
+514,MidWest,4490 Sunbury Rd Columbus OH 43219,CE07,OH270,Paint,Parts,22.3,"HOUSE,OH270",Feb-24
+515,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,2028.35,"Kinley, Travis 108832",Jan-24
+516,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,458.5,HOUNC200,Feb-24
+517,Unknown,Unknown,Unknown,Unknown,Mechanical,Labor,0,Unknown,Jan-24
+518,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,1806,"Willingham, Damian 108499",Feb-24
+519,MidWest,DLR-W.Metro Minneap/St.Cld,CE06,MN202,Mechanical,Parts,4704.7,"Deaver, David A",Jan-24
+520,MidWest,Detroit Factory,CE08,FO908,Mechanical,Parts,390,"Willis, Delmon P",Feb-24
+521,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,4083.6,"Owens, Zachariah 107832",Feb-24
+522,Northeast,Fairfield/Danbury/Stratford,NE07,CT280,Paint,Labor,935,"Scalzi, James 103588",Jan-24
+523,MidWest,Mercantile Body Shop-WRC,CE04,TX232,Mechanical,Labor,6092.5,"Cainelli, Cesar 109085",Feb-24
+524,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,100.94,"Hall, William 105435",Jan-24
+525,Southeast,Belmont Speed Shop,SE08,NC404,Mechanical,Labor,1762.05,"Sluder, Aaron L",Feb-24
+526,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,1296,"Logan, Robeson D",Feb-24
+527,Northeast,Irwin Speed Shop,NE06,PA216,Paint,Labor,50,"Brown, Randy L",Feb-24
+528,MidWest,2955 Eagandale Speed Shop-WRC (mendota heights),CE06,MN201,Mechanical,Labor,14.51,HOUMN201,Feb-24
+529,MidWest,Kansas City WRC,CE03,MO208,Mechanical,Labor,3446,"MO208, HOU",Feb-24
+530,MidWest,Aldine Westfield Body Shop-WRC,CE02,TX230,Mechanical,Parts,14591.93,"Hudson, Nathan 103282",Feb-24
+531,MidWest,DLR-South Houston TX,CE02,TX205,Paint,Labor,100,"Crawford, John",Feb-24
+532,Southeast,Greensboro Speed Shop,SE08,NC200,Mechanical,Labor,0,"Chapman, Tyler",Jan-24
+533,MidWest,Detroit Factory,CE08,FO908,Paint,Labor,796,"Williamson, Michael 103851",Jan-24
