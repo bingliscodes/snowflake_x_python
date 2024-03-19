@@ -87,16 +87,16 @@ Gross_Revenue_Children = [grossServRev, otherRevenue, F_and_I_revenue]
 discounts = AccountLeafNode("Discounts", ['3030000', '3031000', '3032000', '3032100'])
 
 techWages = AccountLeafNode("Tech Wages", ['4001000', '4002000', '4003000', '4004000', '4004100', '4005000'])
-techBenefits = AccountLeafNode("Tech Benefits & Taxes", ['4006000', '4007000', '4008000', '4010000', '4011000', '4011200', '4013000'])
+techBenefits = AccountLeafNode("Tech Benefits & Taxes", ['4006000', '4007000', '4008000', '4009000', '4011000', '4012000', '4013000'])
 subLabor = AccountLeafNode("Sublet Labor", ['4014000'])
 techCOS_LSR_Children = [techWages, techBenefits, subLabor]
 
 techSupplies = AccountLeafNode("Tech Supplies", ['4015000', '4015500', '4016000', '4017000', '4017800', '4018000', '4018500', '4018600', '4018700', '4019000', '4020000', '4021000', '4022000', '4023000'])
-techVehichle = AccountLeafNode("Tech Vehichle Expenses", ['4027000', '4028000', '4029000', '4030000', '4032000', '4033000', '4034000', '4035000'])
+techVehicle = AccountLeafNode("Tech Vehicle Expenses", ['4027000', '4028000', '4029000', '4030000', '4031000', '4032000', '4033000', '4034000', '4035000'])
 techTravel = AccountLeafNode("Tech Travel & Entertainment", ['4036000', '4037000', '4038000'])
 techCell = AccountLeafNode("Tech Cellphones", ['4039000', '4040000'])
 techOther = AccountLeafNode("Tech Other", ['4041000', '4042000', '4042500', '4043000', '4044000', '4045000', '4080000', '4081000'])
-techCOS_other_Children = [techSupplies, techVehichle, techTravel, techCell, techOther]
+techCOS_other_Children = [techSupplies, techVehicle, techTravel, techCell, techOther]
 
 Tech_COS_Children = [techCOS_LSR_Children, techCOS_other_Children]
 
@@ -105,7 +105,7 @@ SGA_wages = AccountLeafNode("SG&A Wages", ['5001000', '5002000', '5003000', '500
 SGA_benefits = AccountLeafNode("SG&A Benefits", ['5006000', '5007000', '5008000', '5009000', '5011000', '5012000', '5013000'])
 SGA_people_Children = [SGA_wages, SGA_benefits]
 
-SGA_vehichle = AccountLeafNode("SG&A Vehichle", ['5027000', '5028000', '5029000', '5030000', '5032000', '5033000', '5034000', '5035000'])
+SGA_vehicle = AccountLeafNode("SG&A Vehicle", ['5027000', '5028000', '5029000', '5030000', '5031000', '5032000', '5033000', '5034000', '5035000'])
 SGA_travel = AccountLeafNode("SG&A Travel & Entertainment", ['5036000', '5037000', '5038000'])
 SGA_cell = AccountLeafNode("SG&A Cellphones", ['5039000', '5040000'])
 SGA_employee = AccountLeafNode("SG&A Employee Relations", ['5044000', '5045000', '5046000', '5047000', '5048000'])
@@ -140,7 +140,7 @@ SGA_other = AccountLeafNode("SG&A Other", [
     '5102000'
     ])
 
-SGA_non_people_Children = [SGA_vehichle, SGA_travel, SGA_cell, SGA_employee, SGA_supplies, SGA_facility, SGA_advert, SGA_other]
+SGA_non_people_Children = [SGA_vehicle, SGA_travel, SGA_cell, SGA_employee, SGA_supplies, SGA_facility, SGA_advert, SGA_other]
 SGA_Children = [SGA_people_Children, SGA_non_people_Children]
 
 DentWizard.add_child(Ebitda)
@@ -162,7 +162,7 @@ Tech_Cost_of_Sales_LSR.add_child(techWages)
 Tech_Cost_of_Sales_LSR.add_child(techBenefits)
 Tech_Cost_of_Sales_LSR.add_child(subLabor)
 Tech_Cost_of_Sales_other.add_child(techSupplies)
-Tech_Cost_of_Sales_other.add_child(techVehichle)
+Tech_Cost_of_Sales_other.add_child(techVehicle)
 Tech_Cost_of_Sales_other.add_child(techTravel)
 Tech_Cost_of_Sales_other.add_child(techCell)
 Tech_Cost_of_Sales_other.add_child(techOther)
@@ -172,7 +172,7 @@ Total_SGA.add_child(SGA_People)
 Total_SGA.add_child(SGA_Non_People)
 SGA_People.add_child(SGA_wages)
 SGA_People.add_child(SGA_benefits)
-SGA_Non_People.add_child(SGA_vehichle)
+SGA_Non_People.add_child(SGA_vehicle)
 SGA_Non_People.add_child(SGA_travel)
 SGA_Non_People.add_child(SGA_cell)
 SGA_Non_People.add_child(SGA_employee)

@@ -14,6 +14,7 @@ def addLabels(df):
     )
     return df
 
+
 def flatten_hierarchy(node, path=None, parent_name=""):
     if path is None:
         path = []
@@ -43,6 +44,17 @@ def export_to_csv(nodes, file_name='hierarchy.csv'):
         for node in nodes:
             writer.writerows(flatten_hierarchy(node))
 
+account_dict = defaultdict(set)
+nextChildren = [DentWizard]
+seen = set()
+while nextChildren:
+    currChild = nextChildren.pop()
+    for child in currChild.children:
+        if child not in seen:
+            seen.add(child)
+            nextChildren.append(child)
+            for acc in child.get_all_accounts():
+                    account_dict[child.name].add(str(acc))
 
-
+#print(account_dict)
 #export_to_csv([DentWizard])
