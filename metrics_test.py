@@ -16,19 +16,28 @@ WHERE "Account Period Name" = 'Jan 2023'
 
 budget_query = """
 SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_PL_BUDGET
-WHERE "Account Period" = '2023-01-01'
+WHERE "Account Period Name" = 'Jan 2024';
 """
 
 actuals_df = execute_query_and_load_data(actuals_query)
-budget_df = execute_query_and_load_data(budget_query)
+   
 
-budget_df = budget_df.drop_duplicates(subset=['Account Number'])
-#remove duplicates
-#ebitda = dataframe[dataframe['Account Number'].isin(account_dict['EBITDA'])]
+### ACTUALS VALIDATION ###
+# actuals_df = execute_query_and_load_data(actuals_query)
+# for metric in account_dict:
+#     total = actuals_df[actuals_df['Account Number'].isin(account_dict[metric])]
+#     print(metric, "total is: ", total['Net Sign Rev'].sum())
+
+
+### BUDGET VALIDATION ###
+budget_df = execute_query_and_load_data(budget_query)
+budget_df.loc[budget_df['Account Type'] == 'Expense', 'Budget Amount USD'] *= -1
+budget_df.loc[budget_df['Account Number'] == '3032100', 'Budget Amount USD'] *= -1
+
 for metric in account_dict:
     total = budget_df[budget_df['Account Number'].isin(account_dict[metric])]
     print(metric, "total is: ", total['Budget Amount USD'].sum())
-
+ 
 
 """
 For Actuals
@@ -61,10 +70,37 @@ Right:
     Total SG&A
     EBITDA
 
-For Budget
+For Budget (2023-01-01)
 
 Right:
+Gross Service Revenue
+Other Revenue
+F&I Revenue
+Net Revenue
+Tech Wages
+Tech Benefits & Taxes
+Sublet Labor
+Tech Tools & Supplies
+Tech Vehicle
+Tech T&E
+Tech Cell Phones
+Tech Other
+Total Tech Expenses (Tech Cost of Sales)
+SG&A Wages
+SG&A Benefits
+SG&A Vehicle
+SG&A Cell Phones
+SG&A Employee Relations
+SG&A Postage and Supplies (SG&A Supplies)
+SG&A Facility
+SG&A Adv/Mkt (SG&A Advertising & Marketing)
+SG&A Other
+Total SG&A
+Discounts (-3274894 vs. -3273390)
+Gross Margin (Gross Profit)
+EBITDA
 
 
-Wrong:
+Wrong: (2024-01-01)
 """
+#TODO: Try multiplying "expense type" account by -1 
