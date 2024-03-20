@@ -80,7 +80,7 @@ Tech_Cost_of_Sales_LSR = AccountHierarchyNode("Tech COS - LSR")
 Tech_Cost_of_Sales_other = AccountHierarchyNode("Tech COS - Other")
     
 
-grossServRev = AccountLeafNode("Gross Service Revenue", ['3002000', '3003000', '3004000', '3005000', '3006000', '3007000', '3008000', '3009000', '3391000'])
+grossServRev = AccountLeafNode("Gross Service Revenue", ['3002000', '3003000', '3004000', '3005000', '3005500', '3006000', '3007000', '3008000', '3009000', '3391000'])
 otherRevenue = AccountLeafNode("Other Revenue", ['3080000', '3081000', '3082000', '3310000', '3385000', '3386000', '3388000', '3388100', '3389000', '3390000', '3392000'])
 F_and_I_revenue = AccountLeafNode("F&I Revenue", ['3381000'])
 Gross_Revenue_Children = [grossServRev, otherRevenue, F_and_I_revenue]

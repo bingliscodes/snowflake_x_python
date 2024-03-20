@@ -11,16 +11,13 @@ from collections import defaultdict
 
 actuals_query = """
 SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_PL_ACTUALS
-WHERE "Account Period Name" = 'Jan 2023'
 """
 
 budget_query = """
 SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_PL_BUDGET
-WHERE "Account Period Name" = 'Jan 2024';
 """
 
-actuals_df = execute_query_and_load_data(actuals_query)
-   
+#actuals_df = execute_query_and_load_data(actuals_query)
 
 ### ACTUALS VALIDATION ###
 # actuals_df = execute_query_and_load_data(actuals_query)
@@ -28,26 +25,26 @@ actuals_df = execute_query_and_load_data(actuals_query)
 #     total = actuals_df[actuals_df['Account Number'].isin(account_dict[metric])]
 #     print(metric, "total is: ", total['Net Sign Rev'].sum())
 
-
+expense_accounts = ['Expense', 'Cost of Goods Sold', 'Other Expense']
 ### BUDGET VALIDATION ###
-budget_df = execute_query_and_load_data(budget_query)
-budget_df.loc[budget_df['Account Type'] == 'Expense', 'Budget Amount USD'] *= -1
-budget_df.loc[budget_df['Account Number'] == '3032100', 'Budget Amount USD'] *= -1
+#budget_df = execute_query_and_load_data(budget_query)
+#this works for 2023-01-01 and 2024-01-01
+#budget_df.loc[budget_df['Account Type'].isin(expense_accounts), 'Budget Amount USD'] *= -1
 
-for metric in account_dict:
-    total = budget_df[budget_df['Account Number'].isin(account_dict[metric])]
-    print(metric, "total is: ", total['Budget Amount USD'].sum())
+# for metric in account_dict:
+#     total = budget_df[budget_df['Account Number'].isin(account_dict[metric])]
+#     print(metric, "total is: ", total[metric].sum())
  
 
 """
-For Actuals
+For Actuals (2024-01-01)
 Right:
-    Other Revenue is correct
-    Gross Revenue is correct
-    Gross Service Revenue is correct
-    Discounts is correct
-    Net Revenue is correct
-    Tech Wages is correct
+    Other Revenue
+    Gross Revenue 
+    Gross Service Revenue
+    Discounts 
+    Net Revenue 
+    Tech Wages
     Sub-Let Labor
     Tech Tools & Supplies
     Tech T&E
@@ -70,37 +67,42 @@ Right:
     Total SG&A
     EBITDA
 
-For Budget (2023-01-01)
+Tech Vehicle is off by $524 in Jan 2024, but correct for Feb 2024
+SG&A ADV/MKT is off by ~500 in Jan 2024, but correct for Feb 2024
+For Budget (2024-01-01)
 
-Right:
-Gross Service Revenue
+Right: (2024-01-01)
 Other Revenue
 F&I Revenue
-Net Revenue
+Discounts
 Tech Wages
-Tech Benefits & Taxes
+Tech Benefits
 Sublet Labor
 Tech Tools & Supplies
 Tech Vehicle
-Tech T&E
-Tech Cell Phones
+Tech Cell
 Tech Other
-Total Tech Expenses (Tech Cost of Sales)
+Total Tech Expense
 SG&A Wages
-SG&A Benefits
+SG&A B&T
 SG&A Vehicle
-SG&A Cell Phones
+SG&A Travel and Entertainment
+SG&A Cell
 SG&A Employee Relations
-SG&A Postage and Supplies (SG&A Supplies)
+SG&A Supplies
 SG&A Facility
-SG&A Adv/Mkt (SG&A Advertising & Marketing)
+SG&A Adv/Mkt
 SG&A Other
 Total SG&A
-Discounts (-3274894 vs. -3273390)
-Gross Margin (Gross Profit)
-EBITDA
 
 
 Wrong: (2024-01-01)
+Gross Service Revenue
+Gross Margin (Gross Profit)
+Net Revenue
+
+#Tech LSR is 23038121 (confirmed)
+#Tech Other is 5976585 (confirmed)
+#Tech total should be 29014706 (confirmed)
+#Added 3005500
 """
-#TODO: Try multiplying "expense type" account by -1 

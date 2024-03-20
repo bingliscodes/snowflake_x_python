@@ -1,4 +1,4 @@
-from hierarchy_tree import *
+#from hierarchy_tree import *
 from collections import defaultdict
 #This file will maintain the account hierarchy to allow us to put individual expenses into buckets based on the account number
 
