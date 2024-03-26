@@ -44,8 +44,8 @@ def main_menu():
 def execute_query_and_load_data(query):
     try:
         cur.execute(query)
-        df = cur.fetch_pandas_all()
-        return df
+        global_df = cur.fetch_pandas_all()
+        return global_df
     except Exception as e:
         print(f"An error occurred: {e}")
         return pd.DataFrame()  # Return an empty DataFrame in case of an error
@@ -58,10 +58,10 @@ def execute_session_command(command):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-df = None
+global_df = None
 def main():
-    global df
-    df = pd.DataFrame()
+    global global_df
+    global_df = pd.DataFrame()
 
     while True:
         main_menu()
@@ -69,13 +69,13 @@ def main():
 
         if choice == "1":
             query = input("Enter your SQL query: ")
-            df = execute_query_and_load_data(query)
-        elif choice == "2" and not df.empty:
-            filter_dataframe(df)
-        elif choice == "3" and not df.empty:
-            summarize_data(df)
+            global_df = execute_query_and_load_data(query)
+        elif choice == "2" and not global_df.empty:
+            filter_dataframe(global_df)
+        elif choice == "3" and not global_df.empty:
+            summarize_data(global_df)
         elif choice == "4":
-            df = select_from_view()
+            global_df = select_from_view()
         elif choice == "5":
             set_current_db()
         elif choice == "6":
@@ -92,7 +92,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    if df is not None:
+    if global_df is not None:
         print("DataFrame is now accessible.")
     IPython.embed()
 

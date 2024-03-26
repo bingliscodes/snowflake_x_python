@@ -4,3 +4,5 @@
 .png
 # other files or directories to ignore
 node_modules/
+actuals.csv
+budget.csv

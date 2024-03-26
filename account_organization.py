@@ -56,5 +56,7 @@ while nextChildren:
             for acc in child.get_all_accounts():
                     account_dict[child.name].add(str(acc))
 
-#print(account_dict)
+for key in account_dict:
+    if key in {"Tech COS - LSR", "Tech COS - Other", "Tech Cost of Sales", "Net Revenue", "Bad Debt", "SG&A - People Expenses", "SG&A - Non-People Expenses", "Total SG&A", "Gross Profit", "EBITDA"}:
+        print(key, account_dict[key])
 #export_to_csv([DentWizard])

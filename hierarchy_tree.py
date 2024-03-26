@@ -1,5 +1,4 @@
 from collections import defaultdict
-import IPython
 
 class AccountHierarchyNode:
     def __init__(self, name):
@@ -70,7 +69,6 @@ DentWizard = AccountHierarchyNode("Dent Wizard")
 Ebitda = AccountHierarchyNode("EBITDA")
 Gross_Profit = AccountHierarchyNode("Gross Profit")
 Total_SGA = AccountHierarchyNode("Total SG&A")
-#Discounts = AccountHierarchyNode("Discounts")
 SGA_People = AccountHierarchyNode("SG&A - People Expenses")
 SGA_Non_People = AccountHierarchyNode("SG&A - Non-People Expenses")
 Net_Revenue = AccountHierarchyNode("Net Revenue")
@@ -116,7 +114,7 @@ SGA_advert = AccountLeafNode("SG&A Advertising & Marketing", ['5063000', '506600
 SGA_other = AccountLeafNode("SG&A Other", [
     '5036500',
     '5041000', 
-    '5079000', 
+    '5079000',
     '5080000', 
     '5081000', 
     '5082000', 
@@ -140,6 +138,7 @@ SGA_other = AccountLeafNode("SG&A Other", [
     '5101500', 
     '5102000'
     ])
+bad_debt = AccountLeafNode("Bad Debt", ['5079000'])
 
 SGA_non_people_Children = [SGA_vehicle, SGA_travel, SGA_cell, SGA_employee, SGA_supplies, SGA_facility, SGA_advert, SGA_other]
 SGA_Children = [SGA_people_Children, SGA_non_people_Children]
@@ -182,6 +181,7 @@ SGA_Non_People.add_child(SGA_supplies)
 SGA_Non_People.add_child(SGA_facility)
 SGA_Non_People.add_child(SGA_advert)
 SGA_Non_People.add_child(SGA_other)
+SGA_Non_People.add_child(bad_debt)
 
 def main():
     DentWizard.display_hierarchy()

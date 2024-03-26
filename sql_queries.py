@@ -1,0 +1,7 @@
+actuals_query = """
+SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_PL_ACTUALS
+"""
+
+budget_query = """
+SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_PL_BUDGET
+"""
