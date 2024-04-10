@@ -6,9 +6,9 @@ from sql_queries import *
 
 ### ACTUALS VALIDATION ###
 actuals_df = execute_query_and_load_data(actuals_query)
-for metric in account_dict:
-    total = actuals_df[actuals_df['Account Number'].isin(account_dict[metric])]
-    print(metric, "total is: ", total['Net Sign Rev'].sum())
+# for metric in account_dict:
+#     total = actuals_df[actuals_df['Account Number'].isin(account_dict[metric])]
+#     print(metric, "total is: ", total['Net Sign Rev'].sum())
 
 expense_accounts = ['Expense', 'Cost of Goods Sold', 'Other Expense']
 ### BUDGET VALIDATION ###
@@ -25,16 +25,3 @@ def get_actuals_and_budgets():
     budget_df = execute_query_and_load_data(budget_query)
     # Perform any necessary initial processing here
     return actuals_df, budget_df
-"""
-
-
-Wrong: (2024-01-01)
-Gross Service Revenue
-Gross Margin (Gross Profit)
-Net Revenue
-
-#Tech LSR is 23038121 (confirmed)
-#Tech Other is 5976585 (confirmed)
-#Tech total should be 29014706 (confirmed)
-#Added 3005500
-"""

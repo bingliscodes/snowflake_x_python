@@ -2,7 +2,8 @@
 from metrics_test import *
 from account_organization import *
 
-#THIS WORKS FOR DIVISION LEVEL
+#THIS CODE CURRENTLY WORKS FOR DIVISION LEVEL TO GET THE MAIN ITEMS AT EACH LEVEL
+#The output is a dataframe with the following columns: Account Period, Division, District, Department, Net Sign Rev, Metric
 def aggregate_metrics(df, account_dict, amount_column, levels=None):
     aggregated_data = []
     for metric, account_numbers in account_dict.items():
@@ -29,6 +30,7 @@ def aggregate_metrics(df, account_dict, amount_column, levels=None):
 #Prepare the Actuals and Budgets DataFrames
 actuals_df = execute_query_and_load_data(actuals_query)
 
+
 aggregated_actuals = aggregate_metrics(
     actuals_df,
     account_dict,
@@ -49,3 +51,5 @@ aggregated_budgets = aggregate_metrics(
 aggregated_actuals.to_csv('actuals_v2.csv')
 aggregated_budgets.to_csv('budget_v2.csv')
 
+#TODO: Experiment with performing all computations here instead of in Power BI. Do we need to do the "aggregation" step at this point?
+#What if instead we utilized the measuremapping table?
