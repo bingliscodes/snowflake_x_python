@@ -1,9 +1,7 @@
 # .gitignore content
 .env
-.csv
-.png
+**.csv
+**.xlsx
+**.png
 # other files or directories to ignore
 node_modules/
-actuals.csv
-budget.csv
-hierarchy.csv
