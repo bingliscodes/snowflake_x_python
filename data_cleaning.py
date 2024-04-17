@@ -16,6 +16,7 @@ master_lookup_tabs = [
     ["Partners", Partners_query],
     ["Departments", Departments_query],
     ["Customers", Customers_query]
+    ["Discounts", Discounts_query]
 ]
 
 ret = []

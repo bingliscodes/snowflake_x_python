@@ -37,3 +37,7 @@ Employees_query = """
 VINs_query = """
     SELECT * FROM DEPT_FINANCE.PUBLIC.VINS_TO_ONESTREAM
 """
+
+Discounts_query = """
+    SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_MASTER_LOOKUP_DISCOUNTS
+"""
