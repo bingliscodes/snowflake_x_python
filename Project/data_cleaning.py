@@ -1,5 +1,5 @@
 from connection_test import connection, connection_params, execute_query_and_load_data
-from sql_queries import *
+from Project.sql_queries import *
 from hierarchy_tree import *
 from datetime import date
 from collections import defaultdict

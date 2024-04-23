@@ -1,7 +1,7 @@
 #metrics_test.py
 from account_organization import *
 from connection_test import *
-from sql_queries import *
+from Project.sql_queries import *
 
 
 ### ACTUALS VALIDATION ###
