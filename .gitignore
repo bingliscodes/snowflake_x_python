@@ -1,0 +1,7 @@
+# .gitignore content
+.env
+**.csv
+**.xlsx
+**.png
+# other files or directories to ignore
+node_modules/

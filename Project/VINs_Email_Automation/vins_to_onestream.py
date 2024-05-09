@@ -12,5 +12,5 @@ vins_df['New Name'] = 'DWVIN_' + vins_df['Account Number'].astype(str)
 
 vins_df_to_csv = vins_df[['New Name', 'Sales Channel Name', 'Department/Zone', 'VIN Count', 'Subsidiary']]
 
-vins_df_to_csv.to_csv('VINS_to_Onestream_test.csv')
+vins_df_to_csv.to_csv('VINS_to_Onestream_0424.csv')
 

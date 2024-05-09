@@ -123,9 +123,9 @@ class CompanyHierarchyNode:
     def display_hierarchy(self, level=0):
         indent = " " * level * 4
         print(f"{indent}{self.name}")
-        # if self.level == 'Division':
-        #     print(f"{indent}", self.get_RVP(), end = " ")
-        #     print(self.get_RCDD())
+        if self.level == 'Division':
+            print(f"{indent}", self.get_RVP(), end = " ")
+            print(self.get_RCDD())
         # elif self.level == 'District':
         #     print(f"{indent}", self.get_DoM())
         # elif self.level == 'Department':

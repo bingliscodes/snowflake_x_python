@@ -7,7 +7,7 @@ budget_query = """
 """
 
 all_query = """
-    SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_PL_V4 LIMIT 10000;
+    SELECT * FROM DEPT_FINANCE.PUBLIC.BENS_PL_V4
 """
 
 KMX_query = """
